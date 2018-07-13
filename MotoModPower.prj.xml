@@ -1,0 +1,524 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<Profile sr="prof28" ve="2">
+		<cdate>1498523628187</cdate>
+		<edate>1491848771088</edate>
+		<id>28</id>
+		<mid0>4</mid0>
+		<Time sr="con0">
+			<fh>-1</fh>
+			<fm>-1</fm>
+			<rep>2</rep>
+			<repval>2</repval>
+			<th>-1</th>
+			<tm>-1</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof29" ve="2">
+		<cdate>1498523628189</cdate>
+		<clp>true</clp>
+		<edate>1491961015210</edate>
+		<id>29</id>
+		<mid0>4</mid0>
+		<Event sr="con0" ve="2">
+			<code>1344888481</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.notificationlistener.extra.ARRAY_PACKAGES>&lt;StringArrayList sr=""&gt;&lt;_arrlst_com.balda.notificationlistener.extra.ARRAY_PACKAGES0&gt;com.motorola.modservice&lt;/_arrlst_com.balda.notificationlistener.extra.ARRAY_PACKAGES0&gt;&lt;/StringArrayList&gt;</com.balda.notificationlistener.extra.ARRAY_PACKAGES>
+					<com.balda.notificationlistener.extra.ARRAY_PACKAGES-type>java.util.ArrayList</com.balda.notificationlistener.extra.ARRAY_PACKAGES-type>
+					<com.balda.notificationlistener.extra.EVENT>2</com.balda.notificationlistener.extra.EVENT>
+					<com.balda.notificationlistener.extra.EVENT-type>java.lang.Integer</com.balda.notificationlistener.extra.EVENT-type>
+					<com.balda.notificationlistener.extra.INT_VERSION_CODE>74</com.balda.notificationlistener.extra.INT_VERSION_CODE>
+					<com.balda.notificationlistener.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.notificationlistener.extra.INT_VERSION_CODE-type>
+					<com.balda.notificationlistener.extra.OPERATION>0</com.balda.notificationlistener.extra.OPERATION>
+					<com.balda.notificationlistener.extra.OPERATION-type>java.lang.Integer</com.balda.notificationlistener.extra.OPERATION-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Any, Moto Mods Manager</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.notificationlistener</Str>
+			<Str sr="arg2" ve="3">com.balda.notificationlistener.ui.EditConditionActivity</Str>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1492035249961</cdate>
+		<name>MotoModPower</name>
+		<pids>28,29</pids>
+		<tids>26,4,27</tids>
+		<Img sr="icon" ve="2">
+			<cls>com.motorola.projectormod.intro.IntroActivity</cls>
+			<pkg>com.motorola.projectormod</pkg>
+		</Img>
+	</Project>
+	<Task sr="task26">
+		<cdate>1491773312581</cdate>
+		<edate>1531501651214</edate>
+		<id>26</id>
+		<nme>GetMMBattState</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>1010159116</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.notificationlistener.extra.ARRAY_PACKAGES>&lt;StringArrayList sr=""&gt;&lt;_arrlst_com.balda.notificationlistener.extra.ARRAY_PACKAGES0&gt;com.motorola.modservice&lt;/_arrlst_com.balda.notificationlistener.extra.ARRAY_PACKAGES0&gt;&lt;/StringArrayList&gt;</com.balda.notificationlistener.extra.ARRAY_PACKAGES>
+					<com.balda.notificationlistener.extra.ARRAY_PACKAGES-type>java.util.ArrayList</com.balda.notificationlistener.extra.ARRAY_PACKAGES-type>
+					<com.balda.notificationlistener.extra.INT_VERSION_CODE>74</com.balda.notificationlistener.extra.INT_VERSION_CODE>
+					<com.balda.notificationlistener.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.notificationlistener.extra.INT_VERSION_CODE-type>
+					<com.balda.notificationlistener.extra.OPERATION>5</com.balda.notificationlistener.extra.OPERATION>
+					<com.balda.notificationlistener.extra.OPERATION-type>java.lang.Integer</com.balda.notificationlistener.extra.OPERATION-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Moto Mods Manager</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%errmsg
+Error message
+Error message if an error occurs. It is filled only if Continue task after error is selected.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%nlqapp()
+Owner app name array
+Owner app name of notification&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%nlqpersistent()
+Notification persistent array
+It can be true or false&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%nlqkey()
+Notification key array
+Notification key&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%nlqsmallicon()
+Status bar icon list
+Status bar icon URI list&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%nlqicon()
+App icons
+App icons URI&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%nlqcount()
+Notification counter array
+Number provided by the notifying app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%nlqtitle()
+Notification title array
+Notification title&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%nlqtext()
+Notification text array
+Notification text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%nlqbigtext()
+Notification big text array
+Notification text for big view notifcation&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%nlqinfotext()
+Notification info text array
+Notification info text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%nlqsubtext()
+Notification sub text array
+Notification sub text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%nlqticker()
+Notification ticker array
+Notification ticker&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%nlqsummary()
+Notification summary array
+Notification summary text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%nlqbutton1()
+Notification button 1 array
+Notification button 1 name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%nlqbutton2()
+Notification button 2 array
+Notification button 2 name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%nlqbutton3()
+Notification button 3 array
+Notification button 3 name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%nlqline()
+Notification line array
+Notification line text for inbox style&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.notificationlistener</Str>
+			<Str sr="arg2" ve="3">com.balda.notificationlistener.ui.QueryEventTask</Str>
+			<Int sr="arg3" val="30"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MMBattState</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%nlqtitle(#)</lhs>
+					<op>0</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%MMBatt</Str>
+			<Str sr="arg1" ve="3">Moto Mod battery </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%MMBatt</Str>
+			<Str sr="arg1" ve="3">%</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%MMBatt</Str>
+			<Str sr="arg1" ve="3">low</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MMBattState</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%nlqtext()</lhs>
+					<op>2</op>
+					<rhs>Efficiency mode</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MMBattState</Str>
+			<Str sr="arg1" ve="3">4</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%nlqtext()</lhs>
+					<op>2</op>
+					<rhs>Waiting to charge Moto Mod</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MMBattState</Str>
+			<Str sr="arg1" ve="3">2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%nlqtext()</lhs>
+					<op>2</op>
+					<rhs>Charging phone</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MMBattState</Str>
+			<Str sr="arg1" ve="3">3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%nlqtext()</lhs>
+					<op>2</op>
+					<rhs>Charging Moto Mod</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MMBattState</Str>
+			<Str sr="arg1" ve="3">5</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%nlqtext()</lhs>
+					<op>2</op>
+					<rhs>Charging complete</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MMBatt</Str>
+			<Str sr="arg1" ve="3">---</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MMBattState</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MMBatt</Str>
+			<Str sr="arg1" ve="3">%nlqtitle()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task27">
+		<cdate>1491942445432</cdate>
+		<edate>1492035411224</edate>
+		<id>27</id>
+		<nme>GetPhoneChargingState</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">intentfilter</Str>
+			<Str sr="arg1" ve="3">IntentFilter</Str>
+			<Str sr="arg2" ve="3">new
+{IntentFilter} (String)</Str>
+			<Str sr="arg3" ve="3">android.intent.action.BATTERY_CHANGED</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">info</Str>
+			<Str sr="arg1" ve="3">CONTEXT</Str>
+			<Str sr="arg2" ve="3">registerReceiver
+{Intent} (BroadcastReceiver, IntentFilter)</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">intentfilter</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">%data</Str>
+			<Str sr="arg1" ve="3">info</Str>
+			<Str sr="arg2" ve="3">getIntExtra
+{int} (String, int)</Str>
+			<Str sr="arg3" ve="3">plugged</Str>
+			<Str sr="arg4" ve="3">-1</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ChargingState</Str>
+			<Str sr="arg1" ve="3">%data</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task4">
+		<cdate>1491773312581</cdate>
+		<edate>1531501731609</edate>
+		<id>4</id>
+		<nme>Update MMBatt</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">GetPhoneChargingState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">GetMMBattState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>50256810</code>
+			<label>Send Charge State</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.pennas.pebblecanvas.extra.STRING_NAME>ChargeState</com.pennas.pebblecanvas.extra.STRING_NAME>
+					<com.pennas.pebblecanvas.extra.STRING_NAME-type>java.lang.String</com.pennas.pebblecanvas.extra.STRING_NAME-type>
+					<com.pennas.pebblecanvas.extra.STRING_SCREEN>OnMMBatt</com.pennas.pebblecanvas.extra.STRING_SCREEN>
+					<com.pennas.pebblecanvas.extra.STRING_SCREEN-type>java.lang.String</com.pennas.pebblecanvas.extra.STRING_SCREEN-type>
+					<com.pennas.pebblecanvas.extra.STRING_VALUE>%chargingstate</com.pennas.pebblecanvas.extra.STRING_VALUE>
+					<com.pennas.pebblecanvas.extra.STRING_VALUE-type>java.lang.String</com.pennas.pebblecanvas.extra.STRING_VALUE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Canvas for Pebble: Tasker item 'ChargeState'</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pennas.pebblecanvas.extra.STRING_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.pennas.pebblecanvas</Str>
+			<Str sr="arg2" ve="3">com.pennas.pebblecanvas.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%chargingstate</Str>
+			<Str sr="arg1" ve="3">%ChargingState</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%chargingstate</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%MMBattState</lhs>
+					<op>0</op>
+					<rhs>2</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%MMBattState</lhs>
+					<op>0</op>
+					<rhs>4</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%mmbattstate</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%mmbattstate</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%MMBattState</lhs>
+					<op>0</op>
+					<rhs>3</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%MMBattState</lhs>
+					<op>0</op>
+					<rhs>5</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%mmbattstate</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ChargingState</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%BATT</lhs>
+					<op>0</op>
+					<rhs>100</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%mmbattstate</Str>
+			<Str sr="arg1" ve="3">2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%MMBattState</lhs>
+					<op>0</op>
+					<rhs>2</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%Batt</lhs>
+					<op>6</op>
+					<rhs>81</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>50256810</code>
+			<label>SendMMBattState</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.pennas.pebblecanvas.extra.STRING_NAME>MMBatteryState</com.pennas.pebblecanvas.extra.STRING_NAME>
+					<com.pennas.pebblecanvas.extra.STRING_NAME-type>java.lang.String</com.pennas.pebblecanvas.extra.STRING_NAME-type>
+					<com.pennas.pebblecanvas.extra.STRING_SCREEN>OnMMBatt</com.pennas.pebblecanvas.extra.STRING_SCREEN>
+					<com.pennas.pebblecanvas.extra.STRING_SCREEN-type>java.lang.String</com.pennas.pebblecanvas.extra.STRING_SCREEN-type>
+					<com.pennas.pebblecanvas.extra.STRING_VALUE>%mmbattstate</com.pennas.pebblecanvas.extra.STRING_VALUE>
+					<com.pennas.pebblecanvas.extra.STRING_VALUE-type>java.lang.String</com.pennas.pebblecanvas.extra.STRING_VALUE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Canvas for Pebble: Tasker item 'MMBatteryState'</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pennas.pebblecanvas.extra.STRING_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.pennas.pebblecanvas</Str>
+			<Str sr="arg2" ve="3">com.pennas.pebblecanvas.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>50256810</code>
+			<label>Send MMBatteryLevel</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.pennas.pebblecanvas.extra.STRING_NAME>MMBattery</com.pennas.pebblecanvas.extra.STRING_NAME>
+					<com.pennas.pebblecanvas.extra.STRING_NAME-type>java.lang.String</com.pennas.pebblecanvas.extra.STRING_NAME-type>
+					<com.pennas.pebblecanvas.extra.STRING_SCREEN>OnMMBatt</com.pennas.pebblecanvas.extra.STRING_SCREEN>
+					<com.pennas.pebblecanvas.extra.STRING_SCREEN-type>java.lang.String</com.pennas.pebblecanvas.extra.STRING_SCREEN-type>
+					<com.pennas.pebblecanvas.extra.STRING_VALUE>%MMBatt</com.pennas.pebblecanvas.extra.STRING_VALUE>
+					<com.pennas.pebblecanvas.extra.STRING_VALUE-type>java.lang.String</com.pennas.pebblecanvas.extra.STRING_VALUE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Canvas for Pebble: Tasker item 'MMBattery'</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pennas.pebblecanvas.extra.STRING_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.pennas.pebblecanvas</Str>
+			<Str sr="arg2" ve="3">com.pennas.pebblecanvas.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
